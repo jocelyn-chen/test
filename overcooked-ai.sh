@@ -1,6 +1,6 @@
 cd ~
 
-rm -rf ~/Anaconda3
+rm -rf ~/anaconda3
 rm -rf ~/human_aware_rl
 
 cd /tmp
