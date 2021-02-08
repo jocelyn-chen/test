@@ -11,8 +11,7 @@ bash Anaconda3-2020.11-Linux-x86_64.sh -b -p $HOME/anaconda3
 cd ~
 
 conda create -y -n harl_rllib python=3.7
-conda init bash
-conda activate harl_rllib
+source activate harl_rllib
 
 git clone --single-branch --branch mesut_xpl --recursive https://github.com/HumanCompatibleAI/human_aware_rl.git
 
