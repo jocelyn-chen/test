@@ -1,7 +1,7 @@
 cd ~
 
-rm -rf /Anaconda3
-rm -rf /human_aware_rl
+rm -rf ~/Anaconda3
+rm -rf ~/human_aware_rl
 
 cd /tmp
 curl -O https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
