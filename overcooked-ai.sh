@@ -14,6 +14,7 @@ conda create -y -n harl_rllib python=3.7
 source activate harl_rllib
 
 git clone --single-branch --branch mesut_xpl --recursive https://github.com/HumanCompatibleAI/human_aware_rl.git
+git clone --single-branch --branch mesut_xpl --recursive https://github.com/HumanCompatibleAI/overcooked_ai.git
 
 cd human_aware_rl/
 
